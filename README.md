@@ -8,4 +8,11 @@ A clojurescript skeleton project for reference
 * [Install clojure-lsp](https://github.com/snoe/clojure-lsp#installation)
 * Ensure kak-lsp is configured correctly and `deps.edn` is a project root for kak-lsp
 * Use `htop` to monitor language server activity
-* Start dev build `clj -m figwheel.main --build dev --repl`
+
+## Dev Build
+
+`clj -m figwheel.main --build dev --repl`
+
+## Test
+
+Run dev build, open [http://localhost:9500/figwheel-extra-main/auto-testing](http://localhost:9500/figwheel-extra-main/auto-testing)

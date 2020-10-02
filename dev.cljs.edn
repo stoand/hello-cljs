@@ -1,2 +1,3 @@
-^{:watch-dirs ["src"]}
+^{:watch-dirs ["src"]
+  :auto-testing true}
 {:main hello.cruel-world}
